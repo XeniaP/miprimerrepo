@@ -1,0 +1,88 @@
+{
+    "name": "Yessenia",
+    "description": "",
+    "policySettings": {
+        "firewallSettingVirtualAndContainerNetworkScanEnabled": {
+            "value": "true"
+        },
+        "integrityMonitoringSettingAutoApplyRecommendationsEnabled": {
+            "value": "Yes"
+        },
+        "intrusionPreventionSettingAutoApplyRecommendationsEnabled": {
+            "value": "Yes"
+        },
+        "logInspectionSettingAutoApplyRecommendationsEnabled": {
+            "value": "Yes"
+        },
+        "integrityMonitoringSettingRealtimeEnabled": {
+            "value": "true"
+        }
+    },
+    "antiMalware": {
+        "state": "on",
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "On, no configuration"
+        }
+    },
+    "webReputation": {
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "Off"
+        }
+    },
+    "activityMonitoring": {
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "Off"
+        }
+    },
+    "firewall": {
+        "state": "on",
+        "moduleStatus": {
+            "status": "active",
+            "statusMessage": "On, 12 rules"
+        },
+        "ruleIDs": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144
+        ]
+    },
+    "intrusionPrevention": {
+        "state": "detect",
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "Detect, no rules"
+        }
+    },
+    "integrityMonitoring": {
+        "state": "real-time",
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "Real Time, no rules"
+        }
+    },
+    "logInspection": {
+        "state": "on",
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "On, no rules"
+        }
+    },
+    "applicationControl": {
+        "moduleStatus": {
+            "status": "inactive",
+            "statusMessage": "Off"
+        }
+    }
+}
