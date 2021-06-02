@@ -6,7 +6,6 @@ const { response } = require("express");
 
 app.post("/get", bodyParser.raw({ type: 'application/json'}), (request, response) => {
     var event = request.body
-    console.log(request.body.toString())
 
     switch(event.type){
         case 'ping':
